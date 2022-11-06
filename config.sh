@@ -12,3 +12,5 @@ REMOTE_WEB=""
 LOCAL_CLIENT=""
 #local website id (as cofigured in ISPConfig)
 LOCAL_WEB=""
+#folder to be copied
+ROOT_FOLDER="web"
