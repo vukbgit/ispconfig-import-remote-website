@@ -1,7 +1,7 @@
 # ispconfig-import-remote-website
 import website content from a remote ISPConfig server to a local one, currently using *scp*
 
-The best option to migrate website hosted on an ISPConfig server is to use their [https://www.ispconfig.org/add-ons/ispconfig-migration-tool/](ISPConfig Migration Toolkit) and thus support their gret work!
+The best option to migrate website hosted on an ISPConfig server is to use their [ISPConfig Migration Toolkit](https://www.ispconfig.org/add-ons/ispconfig-migration-tool/) and thus support their gret work!
 
 *But* if you've done the website setup by yourself and you just need to mirror files from old server to new one you could use this quick-and-dirty shell script:
 
