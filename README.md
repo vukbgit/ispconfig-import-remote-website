@@ -8,7 +8,8 @@ The best option to migrate website hosted on an ISPConfig server is to use their
 * login as root into the new server
 * clone the repository
 * edit config.sh file, it's quite straight forward and commented
-* call script passing path to config file as first argument (so that you can have multipe config file if needed):
+* call script passing path to config file as first argument (so that you can have multipe config files if needed):
 `./import.sh config.sh`
 * script performs checks over variables and asks confirmation
-* if you confirm, transfer is performed and file permission are set to the local user
+* if you confirm, transfer is launched by scp command and you are prompted for remote ssh user password
+* finally file permission are set to the local user
